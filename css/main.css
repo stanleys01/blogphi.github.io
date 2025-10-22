@@ -482,6 +482,35 @@ code.hljs {
 .hljs-strong {
   font-weight: bold
 }
+.highlight:hover .copy-btn,
+.code-container:hover .copy-btn {
+  opacity: 1;
+}
+.code-container {
+  position: relative;
+}
+.code-lang {
+  font-size: 40px;
+  line-height: 1;
+  opacity: 0.1;
+  pointer-events: none;
+  position: absolute;
+  right: 5px;
+}
+.copy-btn {
+  color: #333;
+  cursor: pointer;
+  line-height: 1.6;
+  opacity: 0;
+  padding: 2px 6px;
+  position: absolute;
+  transition: opacity 0.2s ease-in-out;
+  background: #fff;
+  border: 0;
+  font-size: 0.8125em;
+  right: 0;
+  top: 0;
+}
 code,
 kbd,
 figure.highlight,
@@ -1222,7 +1251,7 @@ pre code {
     transition: all 0.2s ease-in-out;
   }
   .links-of-author a::before {
-    background: #24c913;
+    background: #eeff60;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2359,6 +2388,107 @@ ul.breadcrumb li:last-child {
   border-bottom-color: #111;
   color: #111;
 }
+.search-active {
+  overflow: hidden;
+  margin-right: var(--dialog-scrollgutter, 0);
+}
+.search-pop-overlay {
+  background: rgba(0,0,0,0);
+  display: flex;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: visibility 0.4s, background 0.4s;
+  visibility: hidden;
+  width: 100%;
+  z-index: 40;
+}
+.search-active .search-pop-overlay {
+  background: rgba(0,0,0,0.3);
+  visibility: visible;
+}
+.search-popup {
+  background: var(--card-bg-color);
+  border-radius: 5px;
+  height: 80%;
+  margin: auto;
+  transform: scale(0);
+  transition: transform 0.4s;
+  width: 700px;
+}
+.search-active .search-popup {
+  transform: scale(1);
+}
+@media (max-width: 767px) {
+  .search-popup {
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
+.search-popup .search-icon,
+.search-popup .popup-btn-close {
+  color: #999;
+  font-size: 18px;
+  padding: 0 10px;
+}
+.search-popup .popup-btn-close {
+  cursor: pointer;
+}
+.search-popup .popup-btn-close:hover .fa {
+  color: #222;
+}
+.search-popup .search-header {
+  background: #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  padding: 5px;
+}
+.search-popup input.search-input {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  width: 100%;
+}
+.search-popup input.search-input::-webkit-search-cancel-button {
+  display: none;
+}
+.search-popup .search-result-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 55px);
+  overflow: auto;
+  padding: 5px 25px;
+}
+.search-popup .search-result-container hr {
+  flex-shrink: 0;
+  margin: 5px 0 10px;
+}
+.search-popup .search-result-container hr:first-child {
+  display: none;
+}
+.search-popup .search-result-list {
+  margin: 0 5px;
+  padding: 0;
+}
+.search-popup a.search-result-title {
+  font-weight: bold;
+}
+.search-popup p.search-result {
+  border-bottom: 1px dashed #ccc;
+  margin: 0 0 10px;
+  padding: 5px 0;
+}
+.search-popup .search-input-container {
+  flex-grow: 1;
+  padding: 2px;
+}
+.search-popup .search-result-icon {
+  color: #ccc;
+  margin: auto;
+}
 mark.search-keyword {
   background: transparent;
   border-bottom: 1px dashed #ff2a2a;
@@ -2734,4 +2864,98 @@ header.header {
   overflow: visible !important;
   text-overflow: clip !important;
   white-space: nowrap !important; /* 强制文本不换行 */
+}
+.site-author-links a[href^="mailto:"],
+.links-of-author a[href^="mailto:"],
+.social-item a[href^="mailto:"],
+.sidebar a[href*="@"] {
+/* 移除所有可能导致截断的限制 */
+  max-width: none !important;
+  width: auto !important; /* 自动宽度，不强制占满 */
+  min-width: auto !important;
+/* 确保文本在一行内显示，不换行 */
+  overflow: visible !important;
+  text-overflow: unset !important;
+  white-space: nowrap !important; /* 强制不换行 */
+  word-break: normal !important; /* 正常换行规则 */
+/* 邮箱地址继续向左移动 */
+  margin-left: -50px !important; /* 增加负边距向左移动更多 */
+  padding: 8px 10px !important;
+  padding-left: 0 !important;
+/* 确保容器有足够空间 */
+  display: block !important;
+  box-sizing: border-box !important;
+/* 邮箱地址靠左对齐 */
+  text-align: left !important;
+}
+.site-author-links,
+.links-of-author {
+/* 确保容器有足够宽度 */
+  width: 100% !important;
+  max-width: none !important;
+/* 减少容器的左边距 */
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+/* 允许内容换行 */
+  white-space: normal !important;
+  overflow-wrap: break-word;
+}
+.sidebar-inner,
+.sidebar {
+/* 减少侧边栏的内边距 */
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+.sidebar *:not(.site-author-image):not(.site-author-image-wrapper) {
+/* 移除所有可能的左边距，但保留头像的居中 */
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+.sidebar .site-author-image,
+.sidebar .site-author-image-wrapper {
+/* 头像保持居中 */
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+.sidebar .site-author-info,
+.sidebar .site-author-links,
+.sidebar .links-of-author,
+.sidebar .social-links {
+/* 完全移除左边距 */
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  text-align: left !important;
+}
+.sidebar a:contains("@") {
+  max-width: none !important;
+  width: 100% !important;
+  white-space: nowrap !important;
+  text-align: center !important;
+  padding: 8px 20px !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+}
+.site-author-links,
+.links-of-author {
+/* 确保容器有足够宽度 */
+  width: 100% !important;
+  max-width: none !important;
+/* 允许内容换行 */
+  white-space: normal !important;
+  overflow-wrap: break-word;
+}
+.sidebar * {
+/* 移除所有可能的文本截断 */
+  text-overflow: unset !important;
+  overflow: visible !important;
+}
+.sidebar a:has-text("@"),
+.sidebar span:has-text("@"),
+.sidebar div:has-text("@") {
+  max-width: none !important;
+  width: auto !important;
+  white-space: nowrap !important;
+  text-align: center !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
 }
