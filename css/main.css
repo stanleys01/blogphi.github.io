@@ -1251,7 +1251,7 @@ pre code {
     transition: all 0.2s ease-in-out;
   }
   .links-of-author a::before {
-    background: #c763ff;
+    background: #b0d0c9;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2958,4 +2958,59 @@ header.header {
   text-align: center !important;
   overflow: visible !important;
   text-overflow: unset !important;
+}
+.event-list .event-item {
+  margin: 20px 0;
+  padding: 15px;
+  border-left: 4px solid #3498db;
+  background: #f8f9fa;
+  border-radius: 0 8px 8px 0;
+  transition: all 0.3s ease;
+}
+.event-list .event-item:hover {
+  background: #e9ecef;
+  transform: translateX(5px);
+}
+.event-list .event-item .event-time {
+  margin-bottom: 10px;
+}
+.event-list .event-item .event-time .event-tense {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.event-list .event-item .event-time .event-tense.future {
+  background: #28a745;
+  color: #fff;
+}
+.event-list .event-item .event-time .event-tense.now {
+  background: #ffc107;
+  color: #212529;
+}
+.event-list .event-item .event-time .event-tense.past {
+  background: #6c757d;
+  color: #fff;
+}
+.event-list .event-item .event-time .event-datetime {
+  margin-left: 10px;
+  color: #666;
+  font-size: 14px;
+}
+.event-list .event-item .event-content h3 {
+  margin: 0 0 8px 0;
+  color: #2c3e50;
+  font-size: 18px;
+}
+.event-list .event-item .event-content p {
+  margin: 0;
+  color: #555;
+  line-height: 1.5;
+}
+.event-list hr {
+  border: none;
+  border-top: 2px dashed #dee2e6;
+  margin: 30px 0;
 }
