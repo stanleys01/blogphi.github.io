@@ -43,20 +43,30 @@ More info: Deployment
       </tags>
   </entry>
   <entry>
-    <title>第二篇文章</title>
-    <url>/2020/01/01/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[写第二篇文章
-第一段第一节这个就不用了
-More info: Writing
-第二节省略
-More info: Server
-第三节省略
-More info: Generating
-第四节省略
-More info: Deployment
-]]></content>
+    <title>科学上网</title>
+    <url>/2025/10/28/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
+    <content><![CDATA[我的第一篇文章，就以科学上网开始吧。互联网带来人的思想扩容，让不同的观点、不同的思想，彼此碰撞，如果通过取缔一种语言，只留下另一种语言，大概就只会存在无知即力量。
+科学上网工具大致分为两种，一种是封装好的VPN工具，通过直接下载，或者购买，打开即可使用，但是下载的软件工具风险性比较高。我推荐另外一种，clash+节点（机场）的模式，通过github下载开源clash软件，另外购买或者搭建节点，或者在网上寻找免费节点，一般来说节点都比较便宜，购买并不昂贵，稳定性也比较好。
+我着重分享我常用的两种方式，安卓+windows。
+
+
+安卓的科学上网软件下载直接去github下载clash app，下载链接https://github.com/MetaCubeX/ClashMetaForAndroid/releases
+下载好之后直接安装，有些手机可能会报警，忽略就好。安装好的界面如图：
+
+
+购买节点可以在网上购买节点，博主可以推荐一些博主网站，有需要的可以邮件联系。而且节点网站也都有使用教程。
+配置clash代开clash，点击配置，点击右上角+，看到下图，你所购买的节点所给你的链接，可以通过URL导入，导入之后，回到首页，点击启动，就可以科学上网了。
+
+
+windows的科学上网软件下载直接去github下载clash exe，下载链接https://github.com/clash-verge-rev/clash-verge-rev/releases
+下载好之后直接安装，安装好的界面如图：
+
+
+
+配置clash代开clash，点击左侧侧边栏的订阅，订阅文件链接，点击新建，你所购买的节点所给你的链接，复制粘贴保存，回到首页，点击网络设置的系统代理，就可以科学上网了。
+请在下方评论区留下你的想法和建议！]]></content>
       <categories>
-        <category>测试</category>
+        <category>技术</category>
       </categories>
   </entry>
 </search>
