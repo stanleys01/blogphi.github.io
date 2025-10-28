@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2025/10/21/hello-world/</url>
+    <content><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post$ hexo new &quot;My New Post&quot;
+
+More info: Writing
+Run server$ hexo server
+
+More info: Server
+Generate static files$ hexo generate
+
+More info: Generating
+Deploy to remote sites$ hexo deploy
+
+More info: Deployment
+]]></content>
+  </entry>
+  <entry>
+    <title>测试文章 - 无需登录评论</title>
+    <url>/2025/01/22/test-comment/</url>
+    <content><![CDATA[测试文章 - 无需登录评论这是一篇测试文章，用来测试无需登录的评论系统。
+评论系统特点
+✅ 无需注册登录
+✅ 支持匿名评论
+✅ 简单易用
+✅ 完全免费
+
+测试内容Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+// 示例代码function hello() &#123;    console.log(&quot;Hello, World!&quot;);&#125;
+
+
+请在下方评论区留下你的想法和建议！
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+        <tag>评论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第二篇文章</title>
+    <url>/2020/01/01/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[写第二篇文章
+第一段第一节这个就不用了
+More info: Writing
+第二节省略
+More info: Server
+第三节省略
+More info: Generating
+第四节省略
+More info: Deployment
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+</search>

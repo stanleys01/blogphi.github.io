@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>人是能思想的苇草</title>
+  
+  <subtitle>思考与感悟</subtitle>
+  <link href="https://blogphi.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://blogphi.github.io/"/>
+  <updated>2025-10-21T08:19:53.124Z</updated>
+  <id>https://blogphi.github.io/</id>
+  
+  <author>
+    <name>Stanley S</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://blogphi.github.io/2025/10/21/hello-world/"/>
+    <id>https://blogphi.github.io/2025/10/21/hello-world/</id>
+    <published>2025-10-21T08:19:53.124Z</published>
+    <updated>2025-10-21T08:19:53.124Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>测试文章 - 无需登录评论</title>
+    <link href="https://blogphi.github.io/2025/01/22/test-comment/"/>
+    <id>https://blogphi.github.io/2025/01/22/test-comment/</id>
+    <published>2025-01-22T04:00:00.000Z</published>
+    <updated>2025-10-22T01:40:25.244Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="测试文章-无需登录评论"><a href="#测试文章-无需登录评论" class="headerlink" title="测试文章 - 无需登录评论"></a>测试文章 - 无需登录评论</h1><p>这是一篇测试文章，用来测试无需登录的评论系统。</p><h2 id="评论系统特点"><a href="#评论系统特点" class="headerlink" title="评论系统特点"></a>评论系统特点</h2><ul><li>✅ 无需注册登录</li><li>✅ 支持匿名评论</li><li>✅ 简单易用</li><li>✅ 完全免费</li></ul><h2 id="测试内容"><a href="#测试内容" class="headerlink" title="测试内容"></a>测试内容</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 示例代码</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">hello</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Hello, World!&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><hr><p>请在下方评论区留下你的想法和建议！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;测试文章-无需登录评论&quot;&gt;&lt;a href=&quot;#测试文章-无需登录评论&quot; class=&quot;headerlink&quot; title=&quot;测试文章 - 无需登录评论&quot;&gt;&lt;/a&gt;测试文章 - 无需登录评论&lt;/h1&gt;&lt;p&gt;这是一篇测试文章，用来测试无需登录的评论系统。&lt;/p&gt;
+&lt;h</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="https://blogphi.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="测试" scheme="https://blogphi.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="评论" scheme="https://blogphi.github.io/tags/%E8%AF%84%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第二篇文章</title>
+    <link href="https://blogphi.github.io/2020/01/01/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>https://blogphi.github.io/2020/01/01/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-12-31T16:00:00.000Z</published>
+    <updated>2025-10-22T03:32:18.478Z</updated>
+    
+    <content type="html"><![CDATA[<p>写第二篇文章</p><h2 id="第一段"><a href="#第一段" class="headerlink" title="第一段"></a>第一段</h2><h3 id="第一节"><a href="#第一节" class="headerlink" title="第一节"></a>第一节</h3><p>这个就不用了</p><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="第二节"><a href="#第二节" class="headerlink" title="第二节"></a>第二节</h3><p>省略</p><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="第三节"><a href="#第三节" class="headerlink" title="第三节"></a>第三节</h3><p>省略</p><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="第四节"><a href="#第四节" class="headerlink" title="第四节"></a>第四节</h3><p>省略</p><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;写第二篇文章&lt;/p&gt;
+&lt;h2 id=&quot;第一段&quot;&gt;&lt;a href=&quot;#第一段&quot; class=&quot;headerlink&quot; title=&quot;第一段&quot;&gt;&lt;/a&gt;第一段&lt;/h2&gt;&lt;h3 id=&quot;第一节&quot;&gt;&lt;a href=&quot;#第一节&quot; class=&quot;headerlink&quot; title=&quot;第</summary>
+      
+    
+    
+    
+    <category term="测试" scheme="https://blogphi.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+  </entry>
+  
+</feed>
